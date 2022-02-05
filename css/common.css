@@ -1,0 +1,283 @@
+/* 公共样式 */
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+/* 版心 */
+.w{
+    width: 1200px;
+    margin: 0 auto;
+    
+}
+.style-red{
+   color:#c81623;
+}
+/* 顶部导航 */
+.shortcut{
+    height: 31px;
+    background-color: #f1f1f1;
+    line-height: 31px;
+}
+.shortcut li{
+    float: left;
+}
+.spacer{
+    width: 1px;
+    height: 12px;
+    background-color: #666666;
+    margin: 9px 14px 0;
+}
+@font-face {
+    font-family: 'icomoon';
+    src:  url('../fonts/icomoon.eot?ifqt2e');
+    src:  url('../fonts/icomoon.eot?ifqt2e#iefix') format('embedded-opentype'),
+      url('../fonts/icomoon.ttf?ifqt2e') format('truetype'),
+      url('../fonts/icomoon.woff?ifqt2e') format('woff'),
+      url('../fonts/icomoon.svg?ifqt2e#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+  .icomoon{
+      font-family:'icomoon';
+  }
+  .header{
+      position: relative;
+      height: 107px;
+  }
+  .logo{
+      position: absolute;
+      top: 25px;
+      left: 0px;
+      width: 177px;
+      height: 55px;
+  }
+  .logo a{
+    display: block;
+    width: 177px;
+    height: 55px;
+    background:url(../img/logo购物车.png);
+    font-size: 0px;
+  }
+  .search{
+    position: absolute;
+    left: 346px;
+    top: 27px;
+
+  }
+  .tt{
+      width: 445px;
+      height: 32px;
+      border: 2px solid #b1191a;
+      padding-left: 10px;
+      color: #ccc;
+      float: left;
+  }
+  .but{
+    border: 2px solid #b1191a;
+    width: 86px;
+    height: 36px;
+    float: left;
+    background-color: #b1191a;
+    color: white;
+  }
+  .hotwrods{
+    position: absolute;
+    top: 65px;
+    left: 346px;
+  }
+  .hotwrods a{
+    padding: 0px 10px;
+
+  }
+  .shopcar{
+    position: absolute;
+    width: 140px;
+    height: 36px;
+    top: 26px;
+    right: 66px;
+    background-color: #f1f1f1;
+    border: 2px solid #dfdfdf;
+    line-height: 34px;
+    text-align: center;
+  }
+  .car{
+font-family: 'icomoon';
+  }
+  .arrow{
+    font-family: 'icomoon';
+
+  }
+  .count{
+    position: absolute;
+    bottom: 27px;
+    left: 105px;
+    background-color: #ff0000;
+    height: 14px;
+    color: white;
+    line-height: 10px;
+    border-radius: 7px 7px 7px 0;
+  }
+  .nav{
+    height: 45px;
+    border: 2px;
+    border-bottom-color: #b1191a;
+    border-bottom-style: solid;
+  }
+  .dropdown{
+    height: 45px;
+    width: 209px;
+    
+  }
+  .dropdown .dd{
+    height: 100%;
+    width: 100%;
+    background-color: #b1191a;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    line-height: 45px;
+    
+  }
+  .dropdown .dt{
+    height: 465px;
+    background-color: #c81623;
+    margin-top: 2px;
+    
+    
+  }
+  .dt i{
+    font-size: 18px;
+    font-family: 'icomoon';
+    color: white;
+    text-align:center;
+
+  }
+  .menu_item{
+    width: 208px;
+    height: 31px;
+    line-height: 32px;
+    margin-left: 1px;
+    padding: 0 10px;
+  } 
+  .menu_item a{
+    
+    font-size: 14px;
+    color: white;
+  }
+  .menu_item:hover{
+    background-color: white;
+    
+  }
+  .menu_item:hover a{
+    color:#c81623;
+  }
+  .h{
+    display:flex;
+    width: 206px;
+  }
+  .navitems
+  {
+    display: flex;
+    align-items: center;
+    height: 45px;
+    
+  }
+  .navitems li{
+    float: left;
+    height: 100%;
+    margin: 24px;
+    line-height: 10px;
+    font-size: 16px;
+    color:#976666;
+    color: burlywood;
+    
+  } 
+  .footer{
+    height: 386px;
+    background-color: #f5f5f5;
+    padding-top: 30px;
+  }
+  .mod_service{
+    height: 77px;
+    border-bottom: 2px solid #cccccc;
+  }
+  .mod_service li{
+    float: left;
+    width: 240px;
+    height: 79px;
+
+  }
+  .mod_servic_icon{
+    float: left;
+    width: 50px;
+    height: 50px;
+    margin-left: 35px;
+    background:url(../img/icons\ .png) no-repeat;
+  }
+ 
+  .mod_servic_zheng{
+   background-position: -253px -3px;
+  }
+  .mod_service_tit{
+    float: left;
+    margin-left: 5px;
+
+  }
+  .mod_service_tit h5
+  {
+
+    margin: 5px 0;
+  }
+  .mod_servic_ji{
+    background-position: -254px -54px;
+  }
+  .mod_servic_wu
+  {
+    background-position: -256px -107px;
+  }
+  .mod_servic_te{
+    background-position: -257px -157px;
+  }
+  .mod_servic_bang{
+    background-position: -258px -208px;
+  }
+  .mod_holp{
+    height: 183px;
+    border-bottom: #cccccc solid 2px;
+  }
+  .mod_holp_dl{
+    padding: 25px 0 0 50px;
+  }
+  .mod_holp_dt{ 
+    font-size: 16px;
+    height: 33px;
+    padding-top: 0px;
+  }
+ .tanxin{
+   width: 1200px;
+   height: 183px;
+   display: flex;
+   flex-wrap: nowrap;
+ }
+ .hezinoe{
+  padding-left: 48px;
+ }
+ .hezi{
+   
+   padding-left: 115px;
+ }
+.hezi img{
+  height: 80px;
+  border: 2px;
+}
+.mod_copyright{
+  text-align: center;
+}
+.mod_copyright_links{
+  margin: 20px 0 15px 0;
+}
+.mod_copyright_bott{
+  line-height: 17px;
+}
